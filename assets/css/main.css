@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+}
+
+
+.hero-image {
+    background-image: url("/assets/images/hero.png");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white 1px solid;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav h4,
+nav p {
+    color: white;
+    margin: 0;
+}
+
+nav p {
+    border: white 1px solid;
+    border-radius: 41px;
+    padding: 8px 16px;
+}
+
+.form-image {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-125px);
+}
+
+.form-image img {
+    width: 80%;
+    
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.main-section-header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.main-content-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.card-image,
+.card-content {
+    width: 48%;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5152ff;
+}
+
+.main-content-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.jargon {
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fbf5ee;
+}
+
+.information-card-image,
+.information-card-content {
+    width: 48%;
+}
+
+.information-card-image img {
+    width: 100%;
+}
+
+.information-sub-card-container {
+    display: flex;
+    background: #fbf5ee;
+    width: 70vw;
+}
+
+.information-sub-card {
+    margin-top: 3em;
+}
+
+.information-sub-card img {
+    width: 80%;
+}
+
+footer {
+    background: #1c1c1c;
+    outline: red 1px solid;
+    color: white;
+    margin: 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    margin: 10px
+}
+
+footer ul {
+    list-style-type: none;
+    justify-content: ;
+    margin: 
+}
+
+.more-links-container {
+    display: flex;
+}
+
+.more-links-container p {
+    font-weight: 700;
+    padding: 1em;
+}
+
+.information-container-b {
+    display: flex;
+    border-bottom: white 1px solid;
+    margin: 10px;
+}
+
+.information-c {
+    width: 200%;
+    justify-content: flex-end;
+
+}
+
